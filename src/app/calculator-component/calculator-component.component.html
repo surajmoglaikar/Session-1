@@ -1,0 +1,29 @@
+<div style="text-align: center;">
+   <h1>
+       {{title}}
+   </h1>
+    
+            <input [(ngModel)]="num1" type="number" name="num1" class=
+            "form-control">
+            <input [(ngModel)]="num2" type="number" name="num2" class=
+            "form-control">
+            <br><br>
+              <div class="d-flex flex-row justify-content-md-between">
+            <button  (click)="addition()">SUM</button>
+            <button  (click)="subtraction()">SUB</button>
+            <button  (click)="multiplication()">MULTI</button>
+            <button  (click)="division()">DIVISION</button>
+              </div>
+
+        <div class="card-footer">
+             <h4>The sum of{{num1}} and {{num2}} is {{result}} </h4>
+        </div>
+    </div>
+    
+      
+    
+    
+    
+    
+    
+    
